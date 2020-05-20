@@ -1,0 +1,14 @@
+{% extends 'layout.html' %} {% block content %}
+<h1>
+    Change Password</h1>
+<form action="" method="POST">
+    <input type="text" name="token" placeholder="enter token">
+    <div>
+        <label for="new password">New Password</label>
+        <input type="password" name="password">
+    </div>
+    <div>
+        <input type="submit" value="Reset">
+    </div>
+</form>
+{% endblock content %}
